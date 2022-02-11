@@ -1,0 +1,10 @@
+from hashlib import sha256
+
+Hashed = sha256(blob).hexdigest()
+hash1= "f2e9d162e6483cfceff9796f863b89ff39e3f8ecd42daa6ba634de73c506089d"
+hash2= "a5a6e8984b4bf98c9a3224e960846f914b326f9c363aa3fa6c65f027c1b6ed5c"
+
+if (hashed==hash2):
+    print("I come in peace.")
+else:
+    print("Prepare to be destroyed!")
